@@ -1,1 +1,172 @@
-Hi This is test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | UI Developer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header, section, footer {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    header {
+      background: #282c34;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      margin-top: 0;
+      font-size: 3em;
+    }
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #61dafb;
+      font-weight: bold;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      list-style: none;
+      padding: 0;
+    }
+    .skills-grid li {
+      background: #e0e0e0;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .project-card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    form input, form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    form button {
+      background: #282c34;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      background: #282c34;
+      color: white;
+      padding: 20px;
+    }
+    .social-links a {
+      margin: 0 10px;
+      color: #61dafb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Your Name</h1>
+    <p>UI Developer | Frontend Enthusiast | Designer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a UI Developer who loves creating beautiful, responsive, and user-friendly web interfaces.
+      I enjoy turning designs into interactive experiences and always aim for pixel perfection.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-grid">
+      <li>HTML5</li>
+      <li>CSS3 / SCSS</li>
+      <li>JavaScript (ES6+)</li>
+      <li>React.js</li>
+      <li>Vue.js</li>
+      <li>Figma</li>
+      <li>Responsive Design</li>
+      <li>Accessibility (WCAG)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <img src="https://via.placeholder.com/800x400" alt="Project 1 Screenshot">
+      <h3>Project One</h3>
+      <p>A responsive website built using HTML, CSS, and JavaScript. Features dynamic components and mobile-first design.</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://via.placeholder.com/800x400" alt="Project 2 Screenshot">
+      <h3>Project Two</h3>
+      <p>Single-page application using React. Clean UI, reusable components, and interactive features.</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Interested in working together or have a question? Drop me a message!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="mailto:you@example.com">Email</a>
+    </div>
+  </footer>
+
+</body>
+</html>
